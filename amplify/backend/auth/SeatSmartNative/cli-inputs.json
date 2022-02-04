@@ -62,7 +62,8 @@
       "Google"
     ],
     "hostedUIProviderMeta": "[{\"ProviderName\":\"Google\",\"authorize_scopes\":\"openid email profile\",\"AttributeMapping\":{\"email\":\"email\",\"username\":\"sub\"}}]",
-    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"seatsmart://\"],\"LogoutURLs\":[\"seatsmart://\"]}",
-    "authProviders": []
+    "authProviders": [],
+    "hostedUIProviderCreds": "[{\"ProviderName\":\"Google\"}]",
+    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"seatsmart://signin/\"],\"LogoutURLs\":[\"seatsmart://signout/\"]}"
   }
 }
