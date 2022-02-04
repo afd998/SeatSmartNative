@@ -1,0 +1,56 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-seatsmartnative-dev-222935-authRole",
+      "UnauthRoleArn": "arn:aws:iam::436731579312:role/amplify-seatsmartnative-dev-222935-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::436731579312:role/amplify-seatsmartnative-dev-222935-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-seatsmartnative-dev-222935-deployment",
+      "UnauthRoleName": "amplify-seatsmartnative-dev-222935-unauthRole",
+      "StackName": "amplify-seatsmartnative-dev-222935",
+      "StackId": "arn:aws:cloudformation:us-east-1:436731579312:stack/amplify-seatsmartnative-dev-222935/90d90170-8317-11ec-a19b-0a1ba9928519",
+      "AmplifyAppId": "d3j9o0o4jgw82e"
+    },
+    "categories": {
+      "auth": {
+        "SeatSmartNative": {}
+      }
+    }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-seatsmartnative-prod-202616-authRole",
+      "UnauthRoleArn": "arn:aws:iam::436731579312:role/amplify-seatsmartnative-prod-202616-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::436731579312:role/amplify-seatsmartnative-prod-202616-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-seatsmartnative-prod-202616-deployment",
+      "UnauthRoleName": "amplify-seatsmartnative-prod-202616-unauthRole",
+      "StackName": "amplify-seatsmartnative-prod-202616",
+      "StackId": "arn:aws:cloudformation:us-east-1:436731579312:stack/amplify-seatsmartnative-prod-202616/dc830a20-8561-11ec-bcd0-0ab7bfe8576d",
+      "AmplifyAppId": "d3j9o0o4jgw82e"
+    },
+    "categories": {
+      "auth": {
+        "SeatSmartNative": {}
+      }
+    }
+  },
+  "test": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-seatsmartnative-test-203135-authRole",
+      "UnauthRoleArn": "arn:aws:iam::436731579312:role/amplify-seatsmartnative-test-203135-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::436731579312:role/amplify-seatsmartnative-test-203135-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-seatsmartnative-test-203135-deployment",
+      "UnauthRoleName": "amplify-seatsmartnative-test-203135-unauthRole",
+      "StackName": "amplify-seatsmartnative-test-203135",
+      "StackId": "arn:aws:cloudformation:us-east-1:436731579312:stack/amplify-seatsmartnative-test-203135/9485d210-8562-11ec-93a1-0e5c5f996043",
+      "AmplifyAppId": "d3j9o0o4jgw82e"
+    },
+    "categories": {
+      "auth": {
+        "SeatSmartNative": {}
+      }
+    }
+  }
+}

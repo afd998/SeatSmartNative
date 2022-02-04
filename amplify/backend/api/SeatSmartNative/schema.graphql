@@ -1,0 +1,29 @@
+type Group @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Students: [Student] @manyToMany(relationName: "GroupStudent")
+  chartID: ID! @index(name: "byChart")
+}
+
+type Chart @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Groups: [Group] @hasMany(indexName: "byChart", fields: ["id"])
+  classID: ID! @index(name: "byClass")
+}
+
+type Class @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Students: [Student] @hasMany(indexName: "byClass", fields: ["id"])
+  Charts: [Chart] @hasMany(indexName: "byClass", fields: ["id"])
+  teacherID: ID! @index(name: "byTeacher")
+}
+
+type Student @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  groups: [Group] @manyToMany(relationName: "GroupStudent")
+  classID: ID! @index(name: "byClass")
+}
+
+type Teacher @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Classes: [Class] @hasMany(indexName: "byTeacher", fields: ["id"])
+}
